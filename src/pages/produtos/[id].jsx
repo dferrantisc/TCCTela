@@ -15,6 +15,7 @@ export default function Produtos({ produto }) {
           <div>
             <h4>{produto.categoria.nome}</h4>
             <h2>{produto.nome}</h2>
+            <h4>{produto.descricao}</h4>
             <p>R$ {produto["preço"]}</p>
             <button
               onClick={() =>
@@ -35,8 +36,6 @@ export default function Produtos({ produto }) {
 export async function getServerSideProps({ query }) {
   const { id } = query;
   const response = await api.get(`/produto/${id}`);
-
-  console.log(response.data);
 
   return {
     props: {

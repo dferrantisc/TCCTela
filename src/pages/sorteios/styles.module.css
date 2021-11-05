@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.card img {
+  max-width: 200px;
+  max-height: 400px;
+}
+
+.card .content {
+  flex: 1;
+  margin-left: 1rem;
+}
+
+.card button {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.card button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.card button:disabled:hover {
+  background-color: gray;
+  color: #e2dcde;
+  border: none;
+}
