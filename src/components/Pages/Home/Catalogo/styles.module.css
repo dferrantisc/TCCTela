@@ -1,0 +1,20 @@
+.catalogo {
+  padding: 2rem 0;
+}
+
+.catalogoTitle {
+  text-align: center;
+}
+
+.catalogoTitle h3 {
+  font-size: 2rem;
+}
+
+.catalogoTitle p {
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.catalogoSlider {
+  margin-top: 4rem;
+}

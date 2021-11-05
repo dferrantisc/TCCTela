@@ -1,0 +1,30 @@
+.container {
+  color: red;
+}
+
+.p {
+  margin-top: 30px;
+}
+
+.social {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.social ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.social svg {
+  height: 36px;
+  width: 36px;
+  cursor: pointer;
+}
+
+.social svg:hover {
+  color: #608dfd;
+  background: #fff;
+}

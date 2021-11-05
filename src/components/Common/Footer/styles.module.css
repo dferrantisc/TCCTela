@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  align-items: center;
+  background: #ceb1be;
+  color: #2d2d34;
+  height: 60px;
+}
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.container a {
+  margin-left: 5px;
+}
