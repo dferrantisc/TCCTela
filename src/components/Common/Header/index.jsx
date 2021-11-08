@@ -49,7 +49,7 @@ export function Header() {
             <Link href="/contato"> Contato </Link>
           </li>
           <li>
-            <Link href="http://localhost:3000/auth/login"> Login </Link>
+            <Link href="http://localhost:3000/auth/login"> Área de Acesso </Link>
           </li>
         </ul>
       </nav>
